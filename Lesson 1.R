@@ -8,8 +8,18 @@ vector
 vector<-c()
 vector<-c(vector, 1, 1)
 
+
+
+
 # Creating a matrix with a vector
 mat<-matrix(vector, nrow=2,byrow=TRUE)
+mat
+
+# Creating matrix with several vectors
+vec1<-c(1:3)
+vec2<-c(4:6)
+vec3<-c(7:9)
+mat<-rbind(vec1,vec2,vec3)
 mat
 
 # Creating a matrix by declaring a vector
